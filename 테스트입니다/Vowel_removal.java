@@ -25,3 +25,4 @@ public class Vowel_removal {
 	
 }
 >>>>????
+>>>>왜 묾음표야

@@ -24,3 +24,4 @@ public class Vowel_removal {
 	// 속도는 [aeiou]가 제일 빠르다.
 	
 }
+>>>>????

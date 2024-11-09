@@ -17,11 +17,7 @@ public class Question10809 {
 
             List<Integer> arr = new ArrayList<>();
             for (int i = 0; i < 26; i++) {
-                arr.add(str.indexOf('a' + i));
-            }
-
-            for (int pos : arr) {
-                builder.append(pos + " ");
+                builder.append((str.indexOf('a' + i)) + " ");
             }
 
             builder.deleteCharAt(builder.length() - 1);

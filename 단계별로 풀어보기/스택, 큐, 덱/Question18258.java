@@ -14,12 +14,12 @@ public class Question18258 {
             Deque<Integer> queue = new ArrayDeque<>();
 
             for (int i = 0; i < N; i++) {
-                String[] strings = reader.readLine().split(" ");
-                String s = strings[0];
+                StringTokenizer st = new StringTokenizer(reader.readLine());
+                String command = st.nextToken();
 
-                switch (s) {
+                switch (command) {
                     case "push":
-                        int x = Integer.parseInt(strings[1]);
+                        int x = Integer.parseInt(st.nextToken());
                         queue.addLast(x);
                         break;
                     case "pop":
